@@ -1,12 +1,8 @@
 // font
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import "variable";
+@import "utilities";
 @import "gradient";
-
-// variable colors
-
-$primary-color: #14234c;
-$secondary-color: #f9c51b;
-$blue: #1686e1;
 
 // style
 
@@ -67,18 +63,7 @@ body {
       font-weight: 700;
     }
     .btn-contact-us {
-      background-color: $secondary-color;
-      color: white;
-      border-radius: 2em;
-      padding-left: 1em;
-      padding-right: 1em;
-
-      &:hover {
-        color: white;
-        transform: scale(1.1);
-        transition: 0.25s transform ease-in-out;
-        background-color: #f5a512;
-      }
+      @include tombol;
     }
   }
 }
@@ -95,13 +80,10 @@ section {
   min-height: 80vh;
   margin-bottom: 4rem;
 
-  .text-content {
-    text-align: center;
-  }
-
   &.hero {
     .custom-col-left {
       text-align: center;
+
       h1 {
         &.text-greeting {
           font-size: 1.8rem;
@@ -119,22 +101,14 @@ section {
       }
 
       p {
-        color: $primary-color;
-        font-weight: 300;
+        &.text-content {
+          color: $text-color;
+          font-weight: 300;
+        }
       }
 
       .btn-hire-me {
-        background-color: $secondary-color;
-        color: white;
-        border-radius: 2em;
-        padding-left: 1em;
-        padding-right: 1em;
-
-        &:hover {
-          transform: scale(1.1);
-          transition: 0.25s transform ease-in-out;
-          background-color: #f5a512;
-        }
+        @include tombol;
       }
     }
 
@@ -234,11 +208,27 @@ section {
           text-shadow: 1px 2px 2px rgba($primary-color, 0.3);
         }
       }
+      p {
+        &.text-content {
+          color: $text-color;
+          font-weight: 300;
+        }
+      }
     }
 
     .card {
       border-radius: 15px;
       margin: 1rem 1.5rem;
+      h6 {
+        color: $primary-color;
+      }
+
+      p {
+        &.text-content {
+          color: $text-color;
+          font-weight: 300;
+        }
+      }
       &:hover {
         transform: scale(1.1);
         transition: 0.25s transform ease-in-out;
@@ -249,10 +239,9 @@ section {
       }
 
       .btn-card {
-        border: 1px solid rgba($color: #000000, $alpha: 0.1);
-        border-radius: 10px;
+        border-radius: 0.5em;
         color: $blue;
-        box-shadow: 1px 3px 5px rgba($color: #000000, $alpha: 0.3);
+        box-shadow: 2px 3px 5px rgba(#333, 0.3);
 
         &:hover {
           transform: scale(1.1);
@@ -261,17 +250,7 @@ section {
       }
     }
     .btn-download {
-      background-color: $secondary-color;
-      color: white;
-      border-radius: 2em;
-      padding-left: 1em;
-      padding-right: 1em;
-
-      &:hover {
-        transform: scale(1.1);
-        transition: 0.25s transform ease-in-out;
-        background-color: #f5a512;
-      }
+      @include tombol;
     }
   }
   &.expertise {
@@ -280,6 +259,10 @@ section {
     .card {
       border-radius: 15px;
       margin: 1rem 1.5rem;
+
+      .card-title {
+        color: $primary-color;
+      }
 
       .progress-custom {
         margin: 1.2rem 1rem;
@@ -397,11 +380,7 @@ section {
       }
 
       .btn-contact {
-        background-color: $secondary-color;
-        color: white;
-        border-radius: 8px;
-        font-size: 0.8rem;
-        font-weight: 300;
+        @include tombol;
       }
     }
   }
@@ -448,10 +427,10 @@ footer {
   }
 
   .text-footer {
-    color: rgba($primary-color, 0.8);
+    color: $text-color;
     font-size: 0.8rem;
     font-weight: 300;
-    word-spacing: 3px;
+    word-spacing: 1px;
   }
 }
 
