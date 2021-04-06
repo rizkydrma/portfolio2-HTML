@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Rizky Darma | Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Rizky Darma</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">
+                  Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#expertise">Expertise</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link btn btn-contact-us shadow"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- END NAVBAR -->
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2 order-sm-1 custom-col-left">
+            <h1 class="fw-normal text-greeting">Hello ! I Am</h1>
+            <h1 class="fw-normal text-name">Rizky Darma R</h1>
+            <p class="text-content">
+              <small
+                >lorem epsum dolor sit amet Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Obcaecati, laudantium.</small
+              >
+            </p>
+            <a href="#" class="btn btn-hire-me shadow"> Hire Me ! </a>
+          </div>
+          <div class="col-md-6 order-1 order-sm-2 custom-col-right text-center">
+            <div class="dot-group position-relative">
+              <div
+                class="dot dot-orange dot-one position-absolute top-0 start-0"
+              ></div>
+              <div
+                class="dot dot-blue dot-two position-absolute top-0 end-0"
+              ></div>
+            </div>
+            <figure>
+              <img
+                class="img-fluid img-hero"
+                src="./images/img-hero.png"
+                alt="image hero"
+              />
+            </figure>
+            <div class="dot-group position-relative">
+              <div
+                class="dot dot-orange dot-three position-absolute top-0 start-0"
+              ></div>
+              <div
+                class="dot dot-blue dot-four position-absolute top-0 end-0"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END HERO -->
+
+    <!-- SERVICES -->
+    <section class="service" id="service">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-4 custom-service mb-3">
+            <h1 class="title">My Awesome</h1>
+            <h1 class="sub-title">Service</h1>
+            <p class="text-content">
+              <small
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id
+                !</small
+              >
+            </p>
+            <a href="#" class="btn btn-download shadow">Download My CV</a>
+          </div>
+          <div class="col-md-8 text-center card-group-custom">
+            <img
+              src="/images/fragment/fragment.png"
+              alt="fragment"
+              class="fragment fragment-service"
+            />
+            <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <div class="card shadow card-developer">
+                  <img
+                    src="images/icons/img-developer.png"
+                    class="card-img-top"
+                    alt="service developer"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p>
+                      <small>
+                        Some quick example text to build on the card title and
+                      </small>
+                    </p>
+                    <a href="#" class="btn btn-card">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card shadow card-design">
+                  <img
+                    src="images/icons/img-design.png"
+                    class="card-img-top"
+                    alt="service design"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p>
+                      <small>
+                        Some quick example text to build on the card title and
+                      </small>
+                    </p>
+                    <a href="#" class="btn btn-card">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="card shadow card-uiux">
+                  <img
+                    src="images/icons/img-uiuix.png"
+                    class="card-img-top"
+                    alt="service ui uix"
+                  />
+                  <div class="card-body">
+                    <h6 class="card-title">Card title</h6>
+                    <p>
+                      <small>
+                        Some quick example text to build on the card title and
+                      </small>
+                    </p>
+                    <a href="#" class="btn btn-card">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/images/fragment/fragment-1.png"
+        alt="fragment 1"
+        class="fragment-1"
+      />
+    </section>
+    <!-- END SERVICES -->
+
+    <!-- EXPERTISE -->
+    <section class="expertise position-relative" id="expertise">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h5 class="text-primary">Skills</h5>
+            <h1 class="text-primary">Expertise</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-sm-5">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-center">Basic</h5>
+                <div class="progress-custom">
+                  <h6 class="d-inline-block">HTML</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="progress-custom">
+                  <h6 class="d-inline-block">CSS</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="progress-custom">
+                  <h6 class="d-inline-block">PHP</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="progress-custom">
+                  <h6 class="d-inline-block">Javasript</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title text-center">Framework/Library</h5>
+                <div class="progress-custom">
+                  <h6 class="d-inline-block">HTML</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="progress-custom">
+                  <h6 class="d-inline-block">CSS</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="progress-custom">
+                  <h6 class="d-inline-block">PHP</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <div class="progress-custom">
+                  <h6 class="d-inline-block">Javasript</h6>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-warning"
+                      style="width: 75%"
+                      role="progressbar"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/images/fragment/fragment-2.png"
+        alt="fragment-2"
+        style="width: 15vw; z-index: -2"
+        class="position-absolute bottom-0 end-0"
+      />
+    </section>
+    <!-- END EXPERTISE -->
+
+    <!-- RECENT PROJECT -->
+    <section class="recent-project bg-primary" id="project">
+      <div class="container p-5 custom-recent-project">
+        <h1 class="display-3 fw-normal text-white">Recent Projects</h1>
+        <p class="text-white fw-light">
+          always passionate making web app also UI/UX and take a photo
+        </p>
+        <div class="row">
+          <div class="col-auto">
+            <a href="#" class="active btn-project fw-light">UI Design</a>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="btn-project fw-light">UX Design</a>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="btn-project fw-light">Web App</a>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="btn-project fw-light">Photography</a>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-1.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>01 February 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Frontend Cafe Studio Rosid</h6></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-2.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>03 Maret 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Data Covid-19 build with React JS</h6></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-3.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>15 January 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Staycation build with MERN</h6></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-4.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>15 January 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Staycation build with MERN</h6></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-5.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>15 January 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Staycation build with MERN</h6></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-6.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>03 Maret 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Data Covid-19 build with React JS</h6></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-7.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>03 Maret 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Data Covid-19 build with React JS</h6></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-8.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>15 January 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Staycation build with MERN</h6></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card-project position-relative">
+              <div class="img-wrapper">
+                <img
+                  src="/images/project/project-9.png"
+                  alt="project-1"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="meta-wrapper">
+                <span class="fw-light"><small>03 Maret 2021</small></span>
+                <a href="#" class="stretched-link d-block">
+                  <h6>Data Covid-19 build with React JS</h6></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END RECENT PROJECT -->
+
+    <!-- CONTACT -->
+    <section class="contact position-relative" id="contact">
+      <img
+        src="/images/fragment/fragment-3.png"
+        alt="fragment-3"
+        class="position-absolute top-0 start-0"
+        style="width: 23vw; margin-top: -120px; z-index: -2"
+      />
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <div class="card shadow">
+              <div class="card-title text-center">
+                <h5>Feel free to contact me and say hello!</h5>
+              </div>
+              <div class="card-body text-center">
+                <form>
+                  <div class="mb-5">
+                    <input
+                      type="text"
+                      class="custom-form"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div class="mb-5">
+                    <input
+                      type="email"
+                      class="custom-form"
+                      placeholder="Email address"
+                    />
+                  </div>
+                  <div class="mb-5">
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="20"
+                      rows="8"
+                      placeholder="Your Message Here"
+                      class="custom-form"
+                    ></textarea>
+                  </div>
+                  <button type="button" class="btn btn-contact">
+                    Send Your Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/images/fragment/fragment-4.png"
+        alt="fragment-4"
+        class="position-absolute bottom-0 end-0"
+        style="width: 22vw; z-index: -2; margin-bottom: -200px"
+      />
+    </section>
+    <!-- END CONTACT -->
+
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <ul class="footer-nav">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#expertise" class="nav-link">Expertise</a>
+              </li>
+              <li class="nav-item">
+                <a href="#project" class="nav-link">Projects</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-10">
+            <ul class="footer-icon">
+              <li class="item-icon">
+                <a href="#" class="link-icon">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="item-icon">
+                <a href="#" class="link-icon">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li class="item-icon">
+                <a href="#" class="link-icon">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-10 text-center">
+            <span class="text-footer">
+              Design with <i class="bi bi-heart-fill"></i> 2021 All right
+              reserved
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
