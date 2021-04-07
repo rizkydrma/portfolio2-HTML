@@ -359,6 +359,7 @@ section.service .card .btn-card {
   color: #1686e1;
   -webkit-box-shadow: 2px 3px 5px rgba(51, 51, 51, 0.3);
           box-shadow: 2px 3px 5px rgba(51, 51, 51, 0.3);
+  font-size: 0.9rem;
 }
 
 section.service .card .btn-card:hover {
